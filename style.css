@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(45deg,#E8B680,#9468E8);
+    font-family: 'QuickSand', sans-serif;
+    line-height: 1.5;
+}
+.ul{
+    list-style: none;
+    display:flex;
+    justify-content: left;
+    color: rgb(138, 54, 45);
+    position: relative;
+    text-decoration:none;
+    font-size: 45px;
+    margin-bottom: 100px;
+}
+.li{
+    text-decoration:none;
+    color:rgb(138, 54, 45);
+    margin-right: 50px;
+    position: relative;
+    font-weight:bold;
+}
+.li:hover{
+    text-decoration:none;
+    color:rgb(94, 35, 29);
+    margin-right: 50px;
+    position: relative;
+    font-weight:bold;
+}
+.linha{
+    margin-top: 0px;
+}
+h1{
+    text-align: center;
+    color:white;
+    font-size: 80px;
+    width: 900px;
+    margin-top: 50px;
+}
+h2{
+    font-size: 55px;
+    text-align: center;
+    color:white;
+    width: 550px;
+
+}
+h3{
+    color:rgb(226, 209, 177);
+    text-align: center;
+
+    margin-top:30px;
+    font-size: 40px;
+}
+
+main{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    padding:5px 40px;
+}
+.bloco{
+    width: 100%;
+    height: 100%;
+
+}
+.primeirasFotos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;   
+}
+.videos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+}
+.video{
+    width: 400px;
+    height: 700px;
+    margin-right: 5px;
+    margin-left: 1px;
+}
+.videos2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.video2{
+    width: 400px;
+    height: 700px;
+    margin-right: 5px;
+    margin-left: 1px;
+}
+#espelho{
+    width: 400px;
+}
+.denguito{
+    border-radius: 10px;
+    position: relative;
+    left:35px;
+}
+.denguito2{
+    border-radius: 10px;
+    position: relative;
+    left:60px;
+}
+.dengo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.foto{
+    height: 600px;
+    width: 800px;
+    position: relative;
+    right:5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.fotos{
+    height: 550px;
+    width: 320px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.fotos2{
+    width: 420px;
+    height: 550px;
+    margin:10px;
+    border-radius: 8px;
+}
+#ajeitar2{
+    width: 900px;
+    height: 550px;
+    border-radius: 10px;
+}
+.ftinicio{
+    width: 700px;
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+}
+.videos-2-pag{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+.vd{
+    width: 400px;
+    margin-left: 1px;
+}
